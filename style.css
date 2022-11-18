@@ -70,3 +70,44 @@ background: #001f25;
         filter: hue-rotate(360deg);
     }
 }
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #00efff;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* box-shadow: 0 0 20px #00efff; */
+    z-index:2;
+}
+.text:hover {
+    position: absolute;
+    top: 50%; 
+    text-decoration: none;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    /* font-family: verdana; */
+    font-size: 4em;
+    font-weight: 700;
+    color: #00efff;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 1px 6px rgba(16,16,16,0.4),
+1px 2px 10px rgba(16,16,16,0.2),
+1px 2px 35px rgba(16,16,16,0.2),
+1px 3px 60px rgba(16,16,16,0.4);
+z-index:2;
+}
