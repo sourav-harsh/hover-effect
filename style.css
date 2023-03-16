@@ -111,3 +111,7 @@ background: #001f25;
 1px 3px 60px rgba(16,16,16,0.4);
 z-index:2;
 }
+.loader-2{
+    position: relative;
+    margin-left: 300px;
+}
